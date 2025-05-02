@@ -1,7 +1,7 @@
 {
   "name": "TheShovel.rocks",
-  "moderationAPI": "",
-  "joinMessage": "",
+  "moderationAPI": "https://vector.profanity.dev",
+  "joinMessage": "👋 - welcome to the zone! This is a live chat, you can only see messages sent when you are online! Everyone is anonymous here, anyone can use any username. Don't go to shady links and don't fall for scams! Have fun :)",
   "defaultTheme": "#2f2f2f",
   "server": "wss://wsmiddleman.onrender.com/",
   "rooms": [
