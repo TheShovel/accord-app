@@ -4,7 +4,8 @@
 # Accord
 
 Accord is a very basic and anonymous Discord-like chat room, built with PenguinMod! <br>
-Originally built for TheShovel.Rocks <br><br>
+Originally built for TheShovel.Rocks <br>
+![image](https://github.com/user-attachments/assets/ffa3e72b-3a3b-4294-a9ca-6f7ef8027822)
 
 Check it out at [>chat.theshovel.rocks<](https://chat.theshovel.rocks)
 
@@ -24,9 +25,13 @@ All image assets are inside the `images` folder. There you can replace the welco
 
 #### Static rooms
 
-Static rooms are rooms that can only display messages inside a pre-defined json file. This can be used to add announcements rooms or other stuff like that. You can make a static room by setting `static` to true inside the definition of `channel.json` file.<br>
+Static rooms are rooms that can only display messages inside a pre-defined json file. This can be used to add announcements rooms or other stuff like that. You can make a static room by setting `static` to true inside the definition of the room inside the `channel.json` file.<br>
 You can set the values inside these channels by making a json file in the root directory with the scheme `ROOMNAME-static.json`. Look at the examples to see how to format the messages. Static rooms also support different embed types (images, GitHub links, Youtube links).
 
 ### Modifying the client
 
 Generally, I don't think you would need to do this, but if you want to mess around, you can run `start-server.sh`, or start a localhost server on port 8000 in the root directory of the repo, and then open the `accordapp.pmp` file in [>PenguinMod<](https://theshovel.rocks/stable-penguinmod/build/editor.html).
+
+### Moderation apis
+
+By default, Accord uses [>profanity.dev<](https://www.profanity.dev/) for it's username and message filtering. This can be changed inside the `channel.json` file.
