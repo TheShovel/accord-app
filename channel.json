@@ -1,5 +1,7 @@
 {
   "name": "TheShovel.rocks",
+  "moderationAPI": "",
+  "joinMessage": "",
   "defaultTheme": "#2f2f2f",
   "server": "wss://wsmiddleman.onrender.com/",
   "rooms": [
