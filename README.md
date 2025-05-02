@@ -4,7 +4,9 @@
 # Accord
 
 Accord is a very basic and anonymous Discord-like chat room, built with PenguinMod! <br>
-Originally built for TheShovel.Rocks
+Originally built for TheShovel.Rocks <br><br>
+
+Check it out at [>chat.theshovel.rocks<](https://chat.theshovel.rocks)
 
 ### Host your own!
 
