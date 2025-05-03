@@ -11,8 +11,10 @@ Check it out at [>chat.theshovel.rocks<](https://chat.theshovel.rocks)
 
 ### Host your own!
 
-It's quite easy to host your own Accord channel! <br>
-First, you need to host a [>websocket-server<](https://github.com/WorldSprites/websocket-server) from the WorldSprites repository. It's a basic Node based server, you can just run it with the latest version of Node and it should work.
+It's quite easy to host your own Accord channel! <br><br>
+If you don't want to rely on my websocket server you can do this: <br>
+You need to host a [>websocket-server<](https://github.com/WorldSprites/websocket-server) from the WorldSprites repository. It's a basic Node based server, you can just run it with the latest version of Node and it should work.<br><br>
+You dont have to do this though! You can just use my server, and change the channel name in the config file!
 
 #### Configuration
 
